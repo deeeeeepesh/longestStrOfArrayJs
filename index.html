@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    
+    <script>
+        let arrStr = ['deepesh', 'dhanasekar', 'swetha', 'gattu','communication'];
+        
+        let longestStr = arrStr[0];
+    
+          
+            for (let i = 1; i < arrStr.length; i++) {
+                if (longestStr.length < arrStr[i].length) {
+                    longestStr = arrStr[i];
+                }
+            }
+        
+        document.write('<div><strong>The longest string in the given set of array is '+longestStr+'</strong></div>')
+
+    </script>
+</body>
+
+</html>
